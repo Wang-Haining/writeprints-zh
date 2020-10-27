@@ -1,0 +1,6 @@
+site_name: writeprints-static
+nav:
+  - Home: index.md
+  - Features: features.md
+  - Usage: usage.md
+theme: readthedocs

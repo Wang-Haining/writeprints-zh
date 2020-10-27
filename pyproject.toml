@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "writeprints-static"
+version = "0.1.0"
+description = "Extract lexical and syntatic features from texts which are useful in authorship attribution."
+authors = ["Haining Wang <hw56@indiana.edu>", "A. Riddell <riddella@indiana.edu>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/literary-materials/writeprints-static"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+spacy = "^2.3.2"
+scipy = "^1.5.2"
+en_core_web_sm = { git = "https://github.com/explosion/spacy-models/archive/en_core_web_sm-2.3.1.tar.gz"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mkdocs = "^1.12"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
